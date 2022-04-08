@@ -1,0 +1,47 @@
+@charset "utf-8";
+.map{
+	position:relative;
+	width: 100%;
+	height:0;
+	padding-bottom: 75%;
+}
+.map iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+/* 余白を調整 */
+#main{
+	margin-bottom: 30px;
+}
+address table{
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+address tr{
+border-bottom: 1px dashed #8a7b69;
+}
+address tr:last-child{
+border-bottom: none;
+}
+
+address th{
+	width: 20%;
+	min-width: 70px;
+	padding: 10px 20px;
+	color: #fcf0d0;
+	font-weight: normal;
+	text-align: justify;
+	background-color: #4b3f30;
+}
+
+address td{
+	padding: 10px 20px;
+	color: #4b3f30;
+	background-color: #fcf0d0;
+}
